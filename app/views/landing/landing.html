@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-12">
+        <particle-view particle="activeParticle" frequency="activeFrequency"
+            background="activeBackground" control="particleControl">
+        </particle-view>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 buttons-centered">
+        <button class="btn btn-default" ng-click="pause()" ng-bind="paused ? 'Play' : 'Pause'"
+            ng-class="{primary: !paused, success: paused}">
+        </button>
+        <button class="btn btn-default" ng-click="updateMode('snow')" ng-class="{disabled: (mode == 'snow')}">Snow</button>
+        <button class="btn btn-default" ng-click="updateMode('rain')" ng-class="{disabled: (mode == 'rain')}">Rain</button>
+    </div>
+</div>
+<div></div>

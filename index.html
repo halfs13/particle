@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Particle</title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet" type="text/css" href="app/lib/vendor/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body ng-app="particle">
+        <div class="container main-view">
+            <ui-view></ui-view>
+        </div>
+
+        <script src="app/lib/js/Particle.js"></script>
+        <script src="app/lib/js/ParticleEngine.js"></script>
+        <script src="app/lib/js/RainParticle.js"></script>
+        <script src="app/lib/js/SnowParticle.js"></script>
+
+
+        <script src="app/lib/vendor/jquery.js"></script>
+        <script src="app/lib/vendor/lodash.js"></script>
+        <script src="app/lib/vendor/angular.js"></script>
+        <script src="app/lib/vendor/angular-ui-router.js"></script>
+        <script src="app/lib/vendor/bootstrap.js"></script>
+
+        <script src="app/app.js"></script>
+
+        <script src="app/components/particle-view/particle-view.directive.js"></script>
+
+        <script src="app/views/landing/landing.js"></script>
+        <script src="app/views/landing/landing.controller.js"></script>
+    </body>
+</html>

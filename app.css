@@ -1,0 +1,15 @@
+/* line 1, /Users/jwilliams/workspace/asym/particle/app/app.less */
+body {
+  background-color: #F5F3EE;
+}
+/* line 1, /Users/jwilliams/workspace/asym/particle/app/views/landing/landing.less */
+.buttons-centered {
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+}
+/* line 1, /Users/jwilliams/workspace/asym/particle/app/components/particle-view/particle-view.directive.less */
+canvas.particle-view {
+  width: 100%;
+  height: 600px;
+}

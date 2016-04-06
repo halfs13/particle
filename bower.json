@@ -1,0 +1,36 @@
+{
+    "name": "particle",
+    "version": "0.0.1",
+    "homepage": "",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "=1.4.3",
+        "angular-ui-router": "=0.2.15",
+        "bootstrap": "=3.3.1",
+        "jquery": "=2.1.1",
+        "c3": "=0.4.8",
+        "FlipClock": "0.7.7",
+        "lodash": "3.10.1"
+    },
+    "overrides": {
+        "angular": {
+            "js": "**/*.js"
+        },
+        "angular-gridster": {
+            "js": "**/*.js",
+            "css": "**/*.css"
+        },
+        "angular-ui-router": {
+            "js": ["**/angular-ui-router.js", "**/angular-ui-router.min.js"]
+        },
+        "bootstrap": {
+            "css": "**/*.css",
+            "js": "**/bootstrap.js",
+            "fonts": ["**/*.eot", "**/*.svg", "**/*.ttf", "**/*.woff"]
+        },
+        "jquery": {
+            "js": ["**/jquery.js", "**/jquery.min.js"]
+        }
+    }
+}

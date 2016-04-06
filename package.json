@@ -1,0 +1,28 @@
+{
+  "name": "particle",
+  "version": "0.0.1",
+  "author": "halfs13",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-install": "0.6.0",
+    "gulp-less": "3.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfs13/ThirdEyeDesigns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halfs13/ThirdEyeDesigns/issues"
+  },
+  "homepage": "https://github.com/halfs13/ThirdEyeDesigns#readme",
+  "devDependencies": {
+    "eslint-config-angular": "^0.5.0",
+    "eslint-plugin-angular": "1.0.0",
+    "gulp-serve": "^1.2.0",
+    "main-bower-files": "^2.11.1"
+  }
+}
