@@ -1,6 +1,16 @@
 'use strict';
 
 var Particle = Particle || {};
+
+/**
+ * Based on http://thecodeplayer.com/walkthrough/html5-canvas-snow-effect
+ *
+ * A particle definition to display as floating snow.
+ *
+ * @constructor
+ * @param {number} width - the width of the display area
+ * @param {number} height - the height of the display area
+ */
 Particle.SnowParticle = function(width, height) {
     return new Particle.Particle(width, height, {
         xVelocity: 0,

@@ -1,6 +1,17 @@
 'use strict';
 
 var Particle = Particle || {};
+
+/**
+ * Based on http://cssdeck.com/labs/neatnait-canvas-rain
+ *
+ * A particle definition which renders to appear as rain, including a splash
+ * affect when hitting the bottom of the display area.
+ *
+ * @constructor
+ * @param {number} width - the width of the display area
+ * @param {number} height - the height of the display area
+ */
 Particle.RainParticle = function(width, height) {
     return new Particle.Particle(width, height, {
         xVelocity: 1,
