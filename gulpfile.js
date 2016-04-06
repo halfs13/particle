@@ -56,4 +56,4 @@ gulp.task('bower', function() {
 gulp.task('less', tasks.less);
 gulp.task('serve', serve('.'));
 
-gulp.task('default', function() {});
+gulp.task('default', ['bower', 'serve']);
